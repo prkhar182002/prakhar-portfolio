@@ -5,7 +5,7 @@ import { robots } from 'vite-plugin-robots';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: '/',   // FIXED ❗
+  base: '/',  // FIXED
 
   build: {
     outDir: 'dist',
@@ -19,8 +19,8 @@ export default defineConfig({
     vue(),
     robots(),
     sitemap({
-      hostname: 'https://prakhar.devcorebit.com/',   // FIXED ❗
-      basePath: '/',                                 // FIXED ❗
+      hostname: 'https://prakhar.devcorebit.com/',
+      basePath: '/',
       changefreq: 'hourly',
       priority: 1,
     }),
