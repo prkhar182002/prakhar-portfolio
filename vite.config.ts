@@ -18,12 +18,10 @@ export default defineConfig({
     tailwindcss(),
     vue(),
     robots(),
-    sitemap({
-      hostname: 'https://prakhar.devcorebit.com/',   // FIXED ❗
-      basePath: '/',                                 // FIXED ❗
-      changefreq: 'hourly',
-      priority: 1,
-    }),
+    // Sitemap plugin disabled - using static sitemap.xml instead
+    // sitemap({
+    //   hostname: 'https://prakhar.devcorebit.com',
+    // }),
   ],
 
   resolve: {
