@@ -5,7 +5,7 @@ import { robots } from 'vite-plugin-robots';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: '/',   // FIXED ❗
+  base: '/',  // FIXED
 
   build: {
     outDir: 'dist',
